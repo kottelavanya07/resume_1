@@ -1,235 +1,209 @@
 {
   "personal": {
-    "name": "Alex Chen",
-    "title": "AI/ML Engineer & Software Engineer",
-    "email": "alex.chen@email.com",
-    "phone": "+1 (555) 019-2834",
-    "location": "San Francisco, CA",
-    "website": "https://alexchen.dev",
-    "github": "https://github.com/alexchen-dev",
-    "linkedin": "https://linkedin.com/in/alexchen-dev"
+    "name": "Lavanya Kotte",
+    "title": "AI/ML Engineer | Software Developer | Cloud Advocate",
+    "email": "lavanyakottesm24@gmail.com",
+    "phone": "+91 90000 00000",
+    "location": "Bengaluru, India",
+    "website": "https://lavanyakotte.github.io",
+    "github": "https://github.com/lavanyakotte",
+    "linkedin": "https://linkedin.com/in/lavanyakotte"
   },
   "professionalSummary": {
-    "text": "Highly analytical and results-driven AI/ML Engineer and Software Engineer with 3+ years of experience designing, training, and deploying production-grade machine learning models and scalable software architectures. Proven track record in optimizing deep learning pipelines, building distributed systems, and translating complex data into actionable business intelligence. Specialized in Large Language Models (LLMs), Computer Vision, and high-performance backend systems."
+    "text": "Dedicated and ambitious undergraduate specializing in Artificial Intelligence and Machine Learning with hands-on expertise in machine learning workflows, deep learning architectures, and cloud databases. Proven ability in developing end-to-end full-stack applications, Flutter mobile tools, and complex workflow automations. Published research author with strong leadership capability, seeking to contribute technical skills to state-of-the-art software systems and AI solutions."
   },
   "education": [
     {
-      "degree": "Master of Science in Computer Science (Specialization in Machine Learning)",
-      "university": "Stanford University",
-      "year": "2025",
-      "gpa": "3.92 / 4.00"
-    },
-    {
-      "degree": "Bachelor of Science in Computer Science & Data Science",
-      "university": "University of California, Berkeley",
-      "year": "2023",
-      "gpa": "3.85 / 4.00"
+      "degree": "B.Tech in Artificial Intelligence and Machine Learning",
+      "university": "Christ (Deemed to be University)",
+      "year": "2028",
+      "gpa": "3.51 / 4.00"
     }
   ],
   "technicalSkills": {
-    "programmingLanguages": ["Python", "C++", "Java", "JavaScript (ES6+)", "SQL", "Go", "R"],
-    "machineLearning": ["Supervised/Unsupervised Learning", "Reinforcement Learning", "Scikit-Learn", "XGBoost", "Feature Engineering", "Model Evaluation & Selection"],
-    "deepLearning": ["PyTorch", "TensorFlow", "Keras", "Transformers (Hugging Face)", "CNNs", "RNNs/LSTMs", "LLM Fine-tuning (LoRA, QLoRA)"],
-    "dataScience": ["Statistical Analysis", "Data Visualization (Matplotlib, Seaborn)", "Pandas", "NumPy", "A/B Testing", "Time Series Forecasting"],
-    "databases": ["PostgreSQL", "MongoDB", "Redis", "Pinecone (Vector DB)", "MySQL", "DynamoDB"],
-    "webTechnologies": ["HTML5", "CSS3", "React.js", "Node.js", "Express", "FastAPI", "RESTful APIs", "GraphQL"],
-    "toolsPlatforms": ["Docker", "Kubernetes", "Git", "Jupyter", "Apache Spark", "Linux/Bash", "MLflow", "Weights & Biases"],
+    "programmingLanguages": ["Python", "JavaScript", "React.js", "Node.js", "Java", "C"],
+    "machineLearning": ["PyTorch", "TensorFlow", "Keras", "Scikit-Learn", "XGBoost", "Hugging Face Transformers", "CNNs, RNNs & LSTMs", "LoRA & QLoRA Fine-tuning"],
+    "deepLearning": ["PyTorch", "TensorFlow", "Keras", "Transformers (Hugging Face)", "CNNs", "RNNs/LSTMs", "LoRA & QLoRA Fine-tuning"],
+    "dataScience": ["Pandas & NumPy", "Data Visualization (Matplotlib, Seaborn)", "Statistical Analysis & A/B Testing", "Feature Engineering & Selection", "Model Evaluation & Metrics"],
+    "databases": ["PostgreSQL", "Supabase", "MongoDB", "MySQL", "Firebase"],
+    "webTechnologies": ["HTML5", "CSS3", "React.js", "Node.js & Express", "FastAPI", "Flutter", "RESTful APIs", "GraphQL"],
+    "toolsPlatforms": ["n8n (Automation)", "Twilio API", "Git & GitHub", "Docker", "Jupyter", "Linux/Bash"],
     "cloud": ["AWS (EC2, S3, SageMaker, Lambda)", "Google Cloud Platform (GCP)", "Azure"],
-    "versionControl": ["Git", "GitHub", "GitLab"],
-    "operatingSystems": ["Linux (Ubuntu/CentOS)", "macOS", "Windows"]
+    "versionControl": ["Git", "GitHub"],
+    "operatingSystems": ["Linux", "macOS", "Windows"]
   },
   "projects": [
     {
-      "title": "MediScan AI - Deep Learning Medical Diagnostics Portal",
-      "description": "A cloud-native medical imaging diagnostics platform that utilizes deep learning to identify abnormalities in chest X-rays with high precision.",
-      "technologies": ["PyTorch", "FastAPI", "React.js", "Docker", "AWS SageMaker", "MongoDB"],
-      "contribution": "Designed and trained the core ResNet-based CNN model; developed the FastAPI backend for model serving and async inference pipeline.",
+      "title": "Student Attendance Tracker Automation",
+      "description": "Manual student attendance logging is time-consuming and error-prone, resulting in delayed notifications to students/parents and suboptimal academic records administration.",
+      "technologies": ["n8n", "Supabase", "Twilio", "REST API", "PostgreSQL", "JavaScript"],
+      "contribution": "Designed and developed the complete frontend and backend, created database models, wrote REST APIs, and configured n8n visual flow rules and Twilio alerting triggers.",
       "achievements": [
-        "Achieved a 94.2% ROC-AUC score in detecting pleural effusion and pneumonia across a dataset of 100K+ images.",
-        "Reduced inference latency by 45% (from 1.2s to 0.66s) by implementing model quantization and TensorRT optimization.",
-        "Dockerized the microservices architecture, enabling seamless autoscaling on AWS ECS to handle up to 200 concurrent requests."
+        "Interactive dashboard for viewing, recording, and reporting real-time attendance.",
+        "Custom n8n workflow engine executing seamless record synchronizations.",
+        "Automated Twilio SMS triggers dispatching alert notifications to students instantly.",
+        "Robust database integration using Supabase and PostgreSQL with secure user role authorization."
       ],
-      "github": "https://github.com/alexchen-dev/mediscan-ai",
-      "demo": "https://mediscan-demo.alexchen.dev"
+      "github": "https://github.com/lavanyakotte/attendance-automation",
+      "demo": "https://attendance-tracker-demo.example.com"
     },
     {
-      "title": "LlamaFlow - Autonomous LLM Agent Framework",
-      "description": "An open-source orchestration framework for building agentic workflows with memory, tool usage, and self-reflection loops.",
-      "technologies": ["Python", "Hugging Face Transformers", "Pinecone", "LangChain", "OpenAI API", "Streamlit"],
-      "contribution": "Created the core graph-based reasoning engine; integrated vector database for long-term memory retrieval and RAG pipeline.",
+      "title": "QuickBite – Smart Food Ordering System",
+      "description": "Traditional dining processes suffer from slow ordering speeds, order customization errors, and a lack of real-time customer tracking interfaces.",
+      "technologies": ["Flutter", "React", "Node.js", "Express", "MongoDB", "REST API"],
+      "contribution": "Architecting backend database schemas, building REST API endpoints, and constructing responsive mobile screens.",
       "achievements": [
-        "Gained 1,200+ stars on GitHub within 3 months of public release.",
-        "Optimized agent context windows, decreasing API token usage by 30% through intelligent prompt pruning and semantic chunking.",
-        "Implemented a self-correction mechanism that reduced agent hallucination rates by 22% on complex multi-step logical tasks."
+        "Cross-platform Flutter application for fluid customer interactions.",
+        "Node.js Express backend serving dynamic menu items and tracking requests.",
+        "Highly customizable customer orders with persistent historical preferences."
       ],
-      "github": "https://github.com/alexchen-dev/llama-flow",
-      "demo": "https://llamaflow.alexchen.dev"
+      "github": "https://github.com/lavanyakotte/quickbite-system",
+      "demo": "https://quickbite-demo.example.com"
+    },
+    {
+      "title": "FaithAI – AI-Powered Chatbot",
+      "description": "Users seeking theological or faith-based guidance frequently encounter impersonal, generic chatbot responses lacking specialized structural prompts and appropriate empathy.",
+      "technologies": ["Firebase", "Python", "Large Language Models (LLMs)", "REST API", "Git"],
+      "contribution": "Authored model integration workflows in Python, created system instruction parameters, and connected Firebase authentication layers.",
+      "achievements": [
+        "Specialized prompt engineering template to deliver grounded, empathetic guidance.",
+        "Secure customer sign-up and stateful profile authentication managed by Firebase.",
+        "Persistent conversation timelines securely synchronized with Cloud Firestore."
+      ],
+      "github": "https://github.com/lavanyakotte/faith-ai",
+      "demo": "https://faith-ai-demo.example.com"
     }
   ],
   "researchPublications": [
     {
-      "title": "Optimizing Edge Deployment of Deep Convolutional Networks via Dynamic Layer Pruning",
-      "journal": "IEEE International Conference on Machine Learning & Applications (ICMLA)",
-      "year": "2024",
-      "doi": "https://doi.org/10.1109/ICMLA.2024.00012",
-      "description": "Proposed a novel dynamic pruning heuristic that evaluates runtime layer importance, achieving a 3x speedup on edge hardware (Nvidia Jetson) with less than a 1.5% drop in accuracy."
+      "title": "The Human Microbiome: Impact of the Gut Microbiome on Human Immunity and Metabolism",
+      "journal": "International Journal of Progressive Research in Engineering Management and Science (IJPREMS)",
+      "year": "2025",
+      "doi": "IJPREMS-2025-V5-I3",
+      "description": "An in-depth research study analyzing the complex, symbiotic relationship of the human gut microbiome and its critical impact on host immune responses, metabolic regulation, and general health maintenance. The manuscript compiles modern clinical literature on microbial ecosystems and outlines prospective therapeutic avenues for treating chronic metabolic disorders."
     }
   ],
   "certifications": [
     {
-      "name": "AWS Certified Machine Learning - Specialty",
-      "organization": "Amazon Web Services (AWS)",
-      "date": "December 2025",
-      "credentialId": "AWS-ML-12345XYZ",
-      "verificationLink": "https://aws.verification.com/credentials/alex-chen-ml"
+      "name": "Programming in C",
+      "organization": "Infosys SpringBoard",
+      "date": "2024",
+      "credentialId": "INF-SPRING-C-1029",
+      "verificationLink": "https://springboard.infosys.com"
     },
     {
-      "name": "TensorFlow Developer Certificate",
-      "organization": "Google / TensorFlow Certificate Network",
-      "date": "June 2024",
-      "credentialId": "TF-DEV-98765ABC",
-      "verificationLink": "https://credential.tensorflow.org/verify/alex-chen"
+      "name": "Python BootCamp",
+      "organization": "Udemy",
+      "date": "2023",
+      "credentialId": "UD-PY-33491",
+      "verificationLink": "https://udemy.com"
+    },
+    {
+      "name": "Programming in Java",
+      "organization": "NPTEL",
+      "date": "2024",
+      "credentialId": "NPTEL-JV-8842",
+      "verificationLink": "https://nptel.ac.in"
+    },
+    {
+      "name": "Machine Learning Foundations",
+      "organization": "SkillUP",
+      "date": "2024",
+      "credentialId": "SK-ML-9920",
+      "verificationLink": "https://simplilearn.com"
+    },
+    {
+      "name": "Computer Networks",
+      "organization": "Infosys SpringBoard",
+      "date": "2024",
+      "credentialId": "INF-SPRING-CN-4039",
+      "verificationLink": "https://springboard.infosys.com"
     }
   ],
   "internships": [
     {
-      "organization": "NVIDIA",
-      "role": "AI Research Intern",
-      "duration": "June 2024 - September 2024",
+      "organization": "L&T EduTech",
+      "role": "Cyber Intern",
+      "duration": "Apr 2026 – May 2026",
       "responsibilities": [
-        "Researched tensor parallelism techniques for scaling Transformer training across multi-node GPU clusters.",
-        "Contributed to Megatron-LM codebase, implementing a custom CUDA kernel for optimized attention mask operations.",
-        "Collaborated with senior scientists to write technical specifications for hardware-software co-design."
+        "Developed a high-performance AI-based Fake URL Detection system using machine learning and deep learning strategies.",
+        "Collected, compiled, and preprocessed high-dimensional URL data to analyze phishing and legitimate website records.",
+        "Extracted key lexical and domain-based features to optimize URL representation models.",
+        "Built and trained robust classification models in PyTorch and TensorFlow, incorporating CNNs, RNNs, and LSTMs.",
+        "Applied Parameter-Efficient Fine-Tuning (PEFT) using LoRA and QLoRA to configure advanced transformer architectures."
       ],
-      "technologies": ["PyTorch", "CUDA", "C++", "Megatron-LM", "Git", "Linux"],
+      "technologies": ["PyTorch", "TensorFlow", "LoRA", "QLoRA", "CNNs", "RNNs", "LSTMs"],
       "achievements": [
-        "Improved GPU memory utilization by 18% during LLM fine-tuning, permitting larger batch sizes without Out-Of-Memory (OOM) errors.",
-        "Co-authored an internal whitepaper detailing multi-GPU communication optimizations."
-      ]
-    },
-    {
-      "organization": "Tesla",
-      "role": "Data Scientist Intern (Autopilot Team)",
-      "duration": "June 2023 - September 2023",
-      "responsibilities": [
-        "Developed automated data curation pipelines to filter high-entropy corner cases from fleet camera video feeds.",
-        "Trained multi-task neural network models for lane line detection and semantic segmentation.",
-        "Conducted extensive statistical quality checks on labeled training datasets."
-      ],
-      "technologies": ["Python", "PyTorch", "SQL", "Docker", "Hadoop", "OpenCV"],
-      "achievements": [
-        "Automated the classification of false-positive lane detections, saving manual labeling operations by an estimated 150 hours/week.",
-        "Boosted validation accuracy of lane edge detection by 2.1% under low-visibility night and rain conditions."
+        "Evaluated classification scores across standard metrics: accuracy, precision, recall, and F1-score to compare multiple experimental classifiers.",
+        "Optimized detection rates through iterative feature engineering, hyperparameter tuning, and seamless collaboration."
       ]
     }
   ],
-  "workExperience": [
-    {
-      "organization": "Cognitive Systems Inc.",
-      "role": "Machine Learning Engineer",
-      "duration": "September 2024 - Present",
-      "responsibilities": [
-        "Design and scale internal machine learning APIs supporting real-time recommendation engines for 5M+ active users.",
-        "Lead the migration of legacy machine learning models to distributed PyTorch-based training pipelines.",
-        "Mentor 2 junior engineers and define deployment best-practices using CI/CD pipelines."
-      ],
-      "technologies": ["Python", "PyTorch", "Kubernetes", "AWS", "FastAPI", "MLflow", "PostgreSQL"],
-      "achievements": [
-        "Boosted recommendation model conversion rates by 8.4% through deep CTR neural network redesign.",
-        "Reduced system infrastructure costs by $12K/month by consolidating redundant cloud instances and transitioning to Spot instances for batch inference."
-      ]
-    }
-  ],
+  "workExperience": [],
   "leadershipResponsibilities": [
     {
-      "role": "President",
-      "organization": "UC Berkeley AI Student Association",
-      "duration": "September 2022 - May 2023",
-      "description": "Organized weekly research reading groups and technical workshops for 300+ active student members. Secured $5,000 in industry sponsorships from local tech companies to host guest lectures and career panels."
+      "role": "Google Student Ambassador",
+      "organization": "Google",
+      "duration": "May 2026 – May 2027",
+      "description": "Selected to lead Google developer student initiatives and cloud learning circles on campus. Coordinated developer bootcamps, structured student coding sessions, and introduced peers to Google's engineering toolchains."
     },
     {
-      "role": "Technical Mentor",
-      "organization": "CalHacks Hackathon",
-      "duration": "October 2024",
-      "description": "Mentored 15 student teams during a 36-hour hackathon, debugging React/Node, FastAPI backend issues, and guiding model integrations."
+      "role": "AWS Campus Builder",
+      "organization": "Amazon Web Services (AWS)",
+      "duration": "Jul 2026",
+      "description": "Appointed as AWS Campus Builder to evangelize cloud solutions, containerization, and machine learning setups. Created instructional guides and shared cloud computing practices, supporting academic projects utilizing AWS environments."
     }
   ],
-  "hackathonsCompetitions": [
-    {
-      "title": "Stanford AI Hackathon",
-      "ranking": "1st Place (Out of 120 Teams)",
-      "award": "Best Use of Generative AI",
-      "technologies": ["Python", "OpenAI API", "LangChain", "Vector DB"],
-      "description": "Built an interactive conversational assistant for legal documents that extracts and traces citation clauses to verified statutes."
-    },
-    {
-      "title": "Kaggle: Feedback Prize - Evaluating Student Writing",
-      "ranking": "Top 2% (Silver Medal)",
-      "award": "Silver Medalist",
-      "technologies": ["Python", "PyTorch", "Hugging Face DeBERTa", "Optuna"],
-      "description": "Ensembled several DeBERTa-v3 model variants to classify argumentative elements in essays, optimizing cross-entropy loss."
-    }
-  ],
+  "hackathonsCompetitions": [],
   "awardsAchievements": [
     {
-      "title": "Outstanding Graduate Award in Data Science",
-      "organization": "UC Berkeley College of Computing",
-      "year": "2023"
+      "title": "First-Author Research Publication",
+      "organization": "IJPREMS Journal",
+      "year": "2025"
     },
     {
-      "title": "Regents and Chancellor's Scholarship Recipient",
-      "organization": "University of California, Berkeley",
-      "year": "2019 - 2023"
+      "title": "Selected as Google Student Ambassador",
+      "organization": "Google",
+      "year": "2026"
+    },
+    {
+      "title": "AWS Campus Builder Designation",
+      "organization": "Amazon Web Services",
+      "year": "2026"
     }
   ],
   "languages": [
     {
       "language": "English",
-      "proficiency": "Native"
-    },
-    {
-      "language": "Mandarin",
       "proficiency": "Professional Working"
-    },
-    {
-      "language": "Spanish",
-      "proficiency": "Conversational"
     }
   ],
   "professionalProfiles": [
     {
       "platform": "LinkedIn",
-      "url": "https://linkedin.com/in/alexchen-dev"
+      "url": "https://linkedin.com/in/lavanyakotte"
     },
     {
       "platform": "GitHub",
-      "url": "https://github.com/alexchen-dev"
+      "url": "https://github.com/lavanyakotte"
     },
     {
-      "platform": "Portfolio website",
-      "url": "https://alexchen.dev"
+      "platform": "Portfolio Website",
+      "url": "https://lavanyakotte.github.io"
     },
     {
       "platform": "Google Scholar",
-      "url": "https://scholar.google.com/citations?user=alexchen"
+      "url": "https://scholar.google.com/citations?user=lavanyakotte"
     },
     {
       "platform": "LeetCode",
-      "url": "https://leetcode.com/alexchen_dev"
+      "url": "https://leetcode.com/lavanyakotte"
     }
   ],
   "additionalInformation": [
     {
-      "category": "Conferences & Workshops",
-      "description": "Attended NeurIPS 2024, ICML 2025. Completed Stanford Workshop on Distributed Deep Learning Systems (2024)."
-    },
-    {
-      "category": "Professional Memberships",
-      "description": "Member, IEEE Computer Society (since 2022) & Association for Computing Machinery (ACM)."
-    },
-    {
-      "category": "Extracurriculars",
-      "description": "Active contributor to open-source PyTorch projects. Enjoy hiking and digital photography."
+      "category": "Interests & Pursuits",
+      "description": "Active contributor to cloud knowledge-sharing. Passionate about AI integration in security platforms."
     }
   ]
 }

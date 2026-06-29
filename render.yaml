@@ -1,0 +1,14 @@
+# Render Blueprint Specification
+# Deploy this project as a Static Site on Render (https://render.com)
+services:
+  - type: web
+    name: master-resume-profile
+    runtime: static
+    publishPath: ./
+    headers:
+      - path: /*
+        name: Cache-Control
+        value: max-age=0, must-revalidate
+      - path: /resume.json
+        name: Cache-Control
+        value: max-age=0, must-revalidate

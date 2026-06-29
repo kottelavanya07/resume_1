@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alex Chen - AI/ML Engineer & Software Engineer Master Resume and Professional Profile">
+    <meta name="author" content="Alex Chen">
+    <title>Alex Chen | AI/ML & Software Engineer | Professional Profile</title>
+    <!-- Google Fonts for premium typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <!-- Header & Interactive Controls -->
+    <header class="no-print main-header">
+        <div class="header-container">
+            <div class="logo">
+                <span class="logo-accent">&lt;</span>AlexChen<span class="logo-accent">/&gt;</span>
+            </div>
+            <nav class="nav-controls">
+                <!-- Search Box -->
+                <div class="search-wrapper">
+                    <input type="text" id="skill-search" placeholder="Search skills or keywords (e.g. PyTorch)..." aria-label="Search skills or keywords">
+                    <span class="search-icon">🔍</span>
+                </div>
+                <!-- Theme Toggle -->
+                <button id="theme-toggle" class="btn btn-secondary" aria-label="Toggle dark/light mode">
+                    <span class="theme-icon">☀️</span>
+                </button>
+                <!-- Edit JSON Toggle -->
+                <button id="edit-json-btn" class="btn btn-secondary" aria-label="Open Resume Editor">
+                    <span>Edit Data</span>
+                </button>
+                <!-- Print Button -->
+                <button id="print-btn" class="btn btn-primary" aria-label="Print or save as PDF">
+                    <span>Export PDF</span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="resume-container">
+        <!-- Hero Header (Web Profile) & Personal Details (ATS friendly text representation) -->
+        <header class="profile-hero">
+            <div class="hero-content">
+                <h1 id="user-name">Alex Chen</h1>
+                <p class="subtitle" id="user-title">AI/ML Engineer & Software Engineer</p>
+                <div class="contact-bar" id="user-contact">
+                    <!-- Dynamic Contact Info inserted here -->
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Grid Layout -->
+        <div class="resume-grid">
+            <!-- Left Column / Main Experience -->
+            <div class="grid-col main-col">
+                <!-- 1. Professional Summary -->
+                <section class="resume-section" id="section-summary">
+                    <h2>Professional Summary</h2>
+                    <p id="summary-text" class="summary-p"></p>
+                </section>
+
+                <!-- 8. Work Experience -->
+                <section class="resume-section" id="section-experience">
+                    <h2>Work Experience</h2>
+                    <div id="experience-list" class="experience-list"></div>
+                </section>
+
+                <!-- 7. Internships -->
+                <section class="resume-section" id="section-internships">
+                    <h2>Internships</h2>
+                    <div id="internships-list" class="experience-list"></div>
+                </section>
+
+                <!-- 4. Projects -->
+                <section class="resume-section" id="section-projects">
+                    <h2>Key Projects</h2>
+                    <!-- Filters/Tags -->
+                    <div class="no-print project-filters">
+                        <span class="filter-label">Quick Filter:</span>
+                        <div id="filter-tags" class="tag-container">
+                            <button class="tag-btn active" data-filter="all">All</button>
+                            <button class="tag-btn" data-filter="Python">Python</button>
+                            <button class="tag-btn" data-filter="PyTorch">PyTorch</button>
+                            <button class="tag-btn" data-filter="FastAPI">FastAPI</button>
+                            <button class="tag-btn" data-filter="Docker">Docker</button>
+                        </div>
+                    </div>
+                    <div id="projects-list" class="projects-list"></div>
+                </section>
+
+                <!-- 5. Research Publications -->
+                <section class="resume-section" id="section-publications">
+                    <h2>Research Publications</h2>
+                    <div id="publications-list" class="publications-list"></div>
+                </section>
+
+                <!-- 10. Hackathons & Competitions -->
+                <section class="resume-section" id="section-hackathons">
+                    <h2>Hackathons & Competitions</h2>
+                    <div id="hackathons-list" class="hackathons-list"></div>
+                </section>
+            </div>
+
+            <!-- Right Column / Side Information -->
+            <div class="grid-col side-col">
+                <!-- 3. Technical Skills -->
+                <section class="resume-section" id="section-skills">
+                    <h2>Technical Skills</h2>
+                    <div id="skills-list" class="skills-list"></div>
+                </section>
+
+                <!-- 2. Education -->
+                <section class="resume-section" id="section-education">
+                    <h2>Education</h2>
+                    <div id="education-list" class="education-list"></div>
+                </section>
+
+                <!-- 6. Certifications -->
+                <section class="resume-section" id="section-certifications">
+                    <h2>Certifications</h2>
+                    <div id="certifications-list" class="certifications-list"></div>
+                </section>
+
+                <!-- 9. Leadership & Responsibilities -->
+                <section class="resume-section" id="section-leadership">
+                    <h2>Leadership & Responsibilities</h2>
+                    <div id="leadership-list" class="leadership-list"></div>
+                </section>
+
+                <!-- 11. Awards & Achievements -->
+                <section class="resume-section" id="section-awards">
+                    <h2>Awards & Achievements</h2>
+                    <div id="awards-list" class="awards-list"></div>
+                </section>
+
+                <!-- 12. Languages -->
+                <section class="resume-section" id="section-languages">
+                    <h2>Languages</h2>
+                    <div id="languages-list" class="languages-list"></div>
+                </section>
+
+                <!-- 13. Professional Profiles -->
+                <section class="resume-section" id="section-profiles">
+                    <h2>Professional Profiles</h2>
+                    <div id="profiles-list" class="profiles-list"></div>
+                </section>
+
+                <!-- 14. Additional Information -->
+                <section class="resume-section" id="section-additional">
+                    <h2>Additional Information</h2>
+                    <div id="additional-list" class="additional-list"></div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Interactive Editor Modal -->
+    <div id="editor-modal" class="modal no-print" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="modal-content">
+            <header class="modal-header">
+                <h3 id="modal-title">Edit Profile Data</h3>
+                <div class="editor-tabs">
+                    <button class="tab-link active" data-tab="form-editor-tab">Visual Editor</button>
+                    <button class="tab-link" data-tab="json-editor-tab">JSON Code</button>
+                </div>
+                <button id="close-modal-btn" class="close-btn" aria-label="Close modal">&times;</button>
+            </header>
+            <div class="modal-body">
+                <!-- Tab 1: Form Editor -->
+                <div id="form-editor-tab" class="tab-pane active">
+                    <div id="visual-resume-form" class="form-container">
+                        <!-- Dynamic form content will be injected here by app.js -->
+                    </div>
+                </div>
+                
+                <!-- Tab 2: Raw JSON Editor -->
+                <div id="json-editor-tab" class="tab-pane">
+                    <p class="modal-help">Modify your raw resume configuration below. The page will live-validate your syntax.</p>
+                    <div id="editor-error" class="editor-error-msg hidden"></div>
+                    <textarea id="json-editor-textarea" aria-label="JSON Code Editor" spellcheck="false"></textarea>
+                </div>
+            </div>
+            <footer class="modal-footer">
+                <button id="download-json-btn" class="btn btn-secondary">Download JSON</button>
+                <button id="copy-json-btn" class="btn btn-primary">Copy JSON</button>
+            </footer>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

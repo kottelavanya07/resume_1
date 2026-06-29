@@ -1,0 +1,235 @@
+{
+  "personal": {
+    "name": "Alex Chen",
+    "title": "AI/ML Engineer & Software Engineer",
+    "email": "alex.chen@email.com",
+    "phone": "+1 (555) 019-2834",
+    "location": "San Francisco, CA",
+    "website": "https://alexchen.dev",
+    "github": "https://github.com/alexchen-dev",
+    "linkedin": "https://linkedin.com/in/alexchen-dev"
+  },
+  "professionalSummary": {
+    "text": "Highly analytical and results-driven AI/ML Engineer and Software Engineer with 3+ years of experience designing, training, and deploying production-grade machine learning models and scalable software architectures. Proven track record in optimizing deep learning pipelines, building distributed systems, and translating complex data into actionable business intelligence. Specialized in Large Language Models (LLMs), Computer Vision, and high-performance backend systems."
+  },
+  "education": [
+    {
+      "degree": "Master of Science in Computer Science (Specialization in Machine Learning)",
+      "university": "Stanford University",
+      "year": "2025",
+      "gpa": "3.92 / 4.00"
+    },
+    {
+      "degree": "Bachelor of Science in Computer Science & Data Science",
+      "university": "University of California, Berkeley",
+      "year": "2023",
+      "gpa": "3.85 / 4.00"
+    }
+  ],
+  "technicalSkills": {
+    "programmingLanguages": ["Python", "C++", "Java", "JavaScript (ES6+)", "SQL", "Go", "R"],
+    "machineLearning": ["Supervised/Unsupervised Learning", "Reinforcement Learning", "Scikit-Learn", "XGBoost", "Feature Engineering", "Model Evaluation & Selection"],
+    "deepLearning": ["PyTorch", "TensorFlow", "Keras", "Transformers (Hugging Face)", "CNNs", "RNNs/LSTMs", "LLM Fine-tuning (LoRA, QLoRA)"],
+    "dataScience": ["Statistical Analysis", "Data Visualization (Matplotlib, Seaborn)", "Pandas", "NumPy", "A/B Testing", "Time Series Forecasting"],
+    "databases": ["PostgreSQL", "MongoDB", "Redis", "Pinecone (Vector DB)", "MySQL", "DynamoDB"],
+    "webTechnologies": ["HTML5", "CSS3", "React.js", "Node.js", "Express", "FastAPI", "RESTful APIs", "GraphQL"],
+    "toolsPlatforms": ["Docker", "Kubernetes", "Git", "Jupyter", "Apache Spark", "Linux/Bash", "MLflow", "Weights & Biases"],
+    "cloud": ["AWS (EC2, S3, SageMaker, Lambda)", "Google Cloud Platform (GCP)", "Azure"],
+    "versionControl": ["Git", "GitHub", "GitLab"],
+    "operatingSystems": ["Linux (Ubuntu/CentOS)", "macOS", "Windows"]
+  },
+  "projects": [
+    {
+      "title": "MediScan AI - Deep Learning Medical Diagnostics Portal",
+      "description": "A cloud-native medical imaging diagnostics platform that utilizes deep learning to identify abnormalities in chest X-rays with high precision.",
+      "technologies": ["PyTorch", "FastAPI", "React.js", "Docker", "AWS SageMaker", "MongoDB"],
+      "contribution": "Designed and trained the core ResNet-based CNN model; developed the FastAPI backend for model serving and async inference pipeline.",
+      "achievements": [
+        "Achieved a 94.2% ROC-AUC score in detecting pleural effusion and pneumonia across a dataset of 100K+ images.",
+        "Reduced inference latency by 45% (from 1.2s to 0.66s) by implementing model quantization and TensorRT optimization.",
+        "Dockerized the microservices architecture, enabling seamless autoscaling on AWS ECS to handle up to 200 concurrent requests."
+      ],
+      "github": "https://github.com/alexchen-dev/mediscan-ai",
+      "demo": "https://mediscan-demo.alexchen.dev"
+    },
+    {
+      "title": "LlamaFlow - Autonomous LLM Agent Framework",
+      "description": "An open-source orchestration framework for building agentic workflows with memory, tool usage, and self-reflection loops.",
+      "technologies": ["Python", "Hugging Face Transformers", "Pinecone", "LangChain", "OpenAI API", "Streamlit"],
+      "contribution": "Created the core graph-based reasoning engine; integrated vector database for long-term memory retrieval and RAG pipeline.",
+      "achievements": [
+        "Gained 1,200+ stars on GitHub within 3 months of public release.",
+        "Optimized agent context windows, decreasing API token usage by 30% through intelligent prompt pruning and semantic chunking.",
+        "Implemented a self-correction mechanism that reduced agent hallucination rates by 22% on complex multi-step logical tasks."
+      ],
+      "github": "https://github.com/alexchen-dev/llama-flow",
+      "demo": "https://llamaflow.alexchen.dev"
+    }
+  ],
+  "researchPublications": [
+    {
+      "title": "Optimizing Edge Deployment of Deep Convolutional Networks via Dynamic Layer Pruning",
+      "journal": "IEEE International Conference on Machine Learning & Applications (ICMLA)",
+      "year": "2024",
+      "doi": "https://doi.org/10.1109/ICMLA.2024.00012",
+      "description": "Proposed a novel dynamic pruning heuristic that evaluates runtime layer importance, achieving a 3x speedup on edge hardware (Nvidia Jetson) with less than a 1.5% drop in accuracy."
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Machine Learning - Specialty",
+      "organization": "Amazon Web Services (AWS)",
+      "date": "December 2025",
+      "credentialId": "AWS-ML-12345XYZ",
+      "verificationLink": "https://aws.verification.com/credentials/alex-chen-ml"
+    },
+    {
+      "name": "TensorFlow Developer Certificate",
+      "organization": "Google / TensorFlow Certificate Network",
+      "date": "June 2024",
+      "credentialId": "TF-DEV-98765ABC",
+      "verificationLink": "https://credential.tensorflow.org/verify/alex-chen"
+    }
+  ],
+  "internships": [
+    {
+      "organization": "NVIDIA",
+      "role": "AI Research Intern",
+      "duration": "June 2024 - September 2024",
+      "responsibilities": [
+        "Researched tensor parallelism techniques for scaling Transformer training across multi-node GPU clusters.",
+        "Contributed to Megatron-LM codebase, implementing a custom CUDA kernel for optimized attention mask operations.",
+        "Collaborated with senior scientists to write technical specifications for hardware-software co-design."
+      ],
+      "technologies": ["PyTorch", "CUDA", "C++", "Megatron-LM", "Git", "Linux"],
+      "achievements": [
+        "Improved GPU memory utilization by 18% during LLM fine-tuning, permitting larger batch sizes without Out-Of-Memory (OOM) errors.",
+        "Co-authored an internal whitepaper detailing multi-GPU communication optimizations."
+      ]
+    },
+    {
+      "organization": "Tesla",
+      "role": "Data Scientist Intern (Autopilot Team)",
+      "duration": "June 2023 - September 2023",
+      "responsibilities": [
+        "Developed automated data curation pipelines to filter high-entropy corner cases from fleet camera video feeds.",
+        "Trained multi-task neural network models for lane line detection and semantic segmentation.",
+        "Conducted extensive statistical quality checks on labeled training datasets."
+      ],
+      "technologies": ["Python", "PyTorch", "SQL", "Docker", "Hadoop", "OpenCV"],
+      "achievements": [
+        "Automated the classification of false-positive lane detections, saving manual labeling operations by an estimated 150 hours/week.",
+        "Boosted validation accuracy of lane edge detection by 2.1% under low-visibility night and rain conditions."
+      ]
+    }
+  ],
+  "workExperience": [
+    {
+      "organization": "Cognitive Systems Inc.",
+      "role": "Machine Learning Engineer",
+      "duration": "September 2024 - Present",
+      "responsibilities": [
+        "Design and scale internal machine learning APIs supporting real-time recommendation engines for 5M+ active users.",
+        "Lead the migration of legacy machine learning models to distributed PyTorch-based training pipelines.",
+        "Mentor 2 junior engineers and define deployment best-practices using CI/CD pipelines."
+      ],
+      "technologies": ["Python", "PyTorch", "Kubernetes", "AWS", "FastAPI", "MLflow", "PostgreSQL"],
+      "achievements": [
+        "Boosted recommendation model conversion rates by 8.4% through deep CTR neural network redesign.",
+        "Reduced system infrastructure costs by $12K/month by consolidating redundant cloud instances and transitioning to Spot instances for batch inference."
+      ]
+    }
+  ],
+  "leadershipResponsibilities": [
+    {
+      "role": "President",
+      "organization": "UC Berkeley AI Student Association",
+      "duration": "September 2022 - May 2023",
+      "description": "Organized weekly research reading groups and technical workshops for 300+ active student members. Secured $5,000 in industry sponsorships from local tech companies to host guest lectures and career panels."
+    },
+    {
+      "role": "Technical Mentor",
+      "organization": "CalHacks Hackathon",
+      "duration": "October 2024",
+      "description": "Mentored 15 student teams during a 36-hour hackathon, debugging React/Node, FastAPI backend issues, and guiding model integrations."
+    }
+  ],
+  "hackathonsCompetitions": [
+    {
+      "title": "Stanford AI Hackathon",
+      "ranking": "1st Place (Out of 120 Teams)",
+      "award": "Best Use of Generative AI",
+      "technologies": ["Python", "OpenAI API", "LangChain", "Vector DB"],
+      "description": "Built an interactive conversational assistant for legal documents that extracts and traces citation clauses to verified statutes."
+    },
+    {
+      "title": "Kaggle: Feedback Prize - Evaluating Student Writing",
+      "ranking": "Top 2% (Silver Medal)",
+      "award": "Silver Medalist",
+      "technologies": ["Python", "PyTorch", "Hugging Face DeBERTa", "Optuna"],
+      "description": "Ensembled several DeBERTa-v3 model variants to classify argumentative elements in essays, optimizing cross-entropy loss."
+    }
+  ],
+  "awardsAchievements": [
+    {
+      "title": "Outstanding Graduate Award in Data Science",
+      "organization": "UC Berkeley College of Computing",
+      "year": "2023"
+    },
+    {
+      "title": "Regents and Chancellor's Scholarship Recipient",
+      "organization": "University of California, Berkeley",
+      "year": "2019 - 2023"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "Native"
+    },
+    {
+      "language": "Mandarin",
+      "proficiency": "Professional Working"
+    },
+    {
+      "language": "Spanish",
+      "proficiency": "Conversational"
+    }
+  ],
+  "professionalProfiles": [
+    {
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com/in/alexchen-dev"
+    },
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/alexchen-dev"
+    },
+    {
+      "platform": "Portfolio website",
+      "url": "https://alexchen.dev"
+    },
+    {
+      "platform": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=alexchen"
+    },
+    {
+      "platform": "LeetCode",
+      "url": "https://leetcode.com/alexchen_dev"
+    }
+  ],
+  "additionalInformation": [
+    {
+      "category": "Conferences & Workshops",
+      "description": "Attended NeurIPS 2024, ICML 2025. Completed Stanford Workshop on Distributed Deep Learning Systems (2024)."
+    },
+    {
+      "category": "Professional Memberships",
+      "description": "Member, IEEE Computer Society (since 2022) & Association for Computing Machinery (ACM)."
+    },
+    {
+      "category": "Extracurriculars",
+      "description": "Active contributor to open-source PyTorch projects. Enjoy hiking and digital photography."
+    }
+  ]
+}
